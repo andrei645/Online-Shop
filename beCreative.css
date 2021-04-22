@@ -101,11 +101,12 @@ span {
 
 .nav-link {
     font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     color: #545453;
 }
 
 .nav {
-    margin-left: 50%;
+    float: right;
     width: 45%;
 }
 
@@ -121,15 +122,53 @@ span {
     cursor: pointer;
     float: left;
     margin-top: 1%;
+    padding-left: 3em;
     font-size: 10px;
+    font-weight: bold;
+    color: #8c8c8c;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 0;
+}
+
+.mySlides {
+    padding-top: 5%;
+}
+
+.forward,
+.back {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    user-select: none;
+    background-color: #FFD200;
+    display: block;
+}
+
+.forward {
+    margin-left: 3em;
+}
+
+.back:hover,
+.forward:hover {
+    background-color: #FFD200aa;
 }
 
 .line {
-    height: 3px;
-    width: 1px;
     color: #545453;
     float: right;
-    margin-right: 0;
+    padding-left: 2em;
 }
 
 .line-left {
@@ -144,7 +183,7 @@ span {
 
 .services-area {
     margin-top: 5vh;
-    height: 10vh;
+    height: 12vh;
     background-color: #E4F4F4;
 }
 
@@ -152,6 +191,15 @@ span {
     text-align: center;
     padding: 10px;
     font-size: 16px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+#serv-img {
+    width: 45px;
+    padding: 7px;
+    border: 2px solid #009999;
+    border-radius: 25px;
 }
 
 .items {
@@ -176,7 +224,7 @@ span {
 
 .card p {
     top: 0;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 
 #addCard {
@@ -384,25 +432,49 @@ span {
     padding-bottom: 3vw;
 }
 
+.cliens {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.cliens img {
+    max-width: 45%;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+
+.cliens img:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.contact-area {
+    margin-top: 5vh;
+}
+
 .contact-form {
     width: 32vw;
-    height: 60vh;
+    height: 80vh;
     background-color: rgb(233, 233, 233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .contact-form h2 {
-    padding-top: 3%;
+    margin-top: 8%;
     padding-left: 3%;
     color: #009999;
     font-weight: bold;
 }
 
 .contact-form input[type="text"] {
+    margin-top: 1vh;
     height: 5vh;
 }
 
 .contact-form h4 {
     padding-left: 3%;
+    padding-top: 3%;
     padding-bottom: 6%;
 }
 
@@ -410,7 +482,7 @@ span {
     margin-left: 5vw;
     font-weight: bold;
     color: white;
-    margin-top: 1em;
+    margin-top: 2em;
     border-radius: 2px;
     border: none;
     float: left;
@@ -458,8 +530,42 @@ span {
     color: black;
 }
 
-.ending {
-    margin-top: 4vh;
+.about-us {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-us h1 {
+    padding-left: 20%;
+    padding-top: 4vh;
+    padding-bottom: 7px;
+    color: #009999;
+    border-bottom: 2px solid #8c8c8c;
+}
+
+.program {
+    margin-left: 10%;
+    margin-top: 6%;
+    float: left;
+}
+
+.program-right {
+    float: right;
+    margin-top: 6%;
+}
+
+.about-us h5 {
+    display: block;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.about-us a:hover {
+    text-decoration: none;
+}
+
+.container-contact h5 {
+    margin-left: 4em;
+    padding-left: 5em;
 }
 
 .logo-ending p {

@@ -82,7 +82,7 @@
 
 
     <div class="row" id="topnav">
-        <div class="col-md-4 col-sm-4">
+        <div class="col-md-4 ">
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <a class="nav-link" href="#"> <i class="fas fa-bars">Toate categoriile</i></a>
@@ -154,39 +154,56 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md-1 nav-right">BLACK FRIDAY 2020
-            <p class="line"><b>|</b>
-            </p>
-        </div>
-        <div class="col-md-1  nav-right">LICHIDARE STOC
-            <p class="line"><b>|</b>
-            </p>
-        </div>
-        <div class="col-md-1  nav-right">SECOND HAND
-            <p class="line"><b>|</b>
-            </p>
-        </div>
-        <div class="col-md-1  nav-right">REDUCERI PRET</div>
-        <div class="col-md-1  nav-right" style=" margin-left: 7vw;"><b>Despre noi</b></div>
-        <div class="col-md-1  nav-right"><b>Contact</b>
+
+        <div class="col-md-6 slideshow-container">
+
+            <div class=" nav-right">BLACK FRIDAY 2020
+                <p class="line"><b>|</b>
+                </p>
+            </div>
+            <div class=" nav-right">LICHIDARE STOC
+                <p class="line"><b>|</b>
+                </p>
+            </div>
+            <div class=" nav-right">SECOND HAND
+                <p class="line"><b>|</b>
+                </p>
+            </div>
+            <div class=" nav-right">REDUCERI PRET
+
+            </div>
+            <div class=" nav-right" style=" margin-left: 5vw;"><b>Despre noi</b></div>
+            <div class=" nav-right"><b>Contact</b>
+            </div>
+
+            <div class="mySlides">
+                <img src="slider.png" style="width:100%; height: 60vh">
+            </div>
+
+            <a class="forward">&#10095;</a>
+            <a class="back">&#10094;</a>
+
+
         </div>
     </div>
+
+
+
 
 
 
     <div class="container services-area">
         <div class="row justify-content-center">
             <div class="col-md-4 text-center services">
-                Reduceri periodice la game de produse
+                <img src="price-tag.png" id="serv-img"> Reduceri periodice la game de produse
             </div>
             <div class="col-md-4  text-center services">
                 <p class="line-left"> </p>
-
-                Livrare la domiciliu sau ridicare din magazin
+                <img src="truck.png" id="serv-img"> Livrare la domiciliu sau <br> ridicare din magazin
             </div>
             <div class="col-md-4  text-center services">
                 <p class="line-left"> </p>
-                Suport tehnic
+                <img src="support.png" id="serv-img"> Suport tehnic
             </div>
         </div>
 
@@ -197,7 +214,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <h3>Echipamente protectie</h3>
-                    <p><i class="fas fa-angle-right">Protectie corp</i></p>
+                    <img src="res.png" style="width: 100px; right: 0; padding-right: 3%; padding-top: 12%;  position: absolute;">
+                    <p style="margin-top: 22%;"><i class="fas fa-angle-right">Protectie corp</i></p>
                     <p><i class="fas fa-angle-right">Protectie cap</i></p>
                     <p><i class="fas fa-angle-right">Protectie maini</i></p>
                     <p><i class="fas fa-angle-right">Protectie picioare</i></p>
@@ -208,7 +226,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <h3>ECHIPAMENTE SUDARE</h3>
-                    <p><i class="fas fa-angle-right">Sudare prin Rezistenta </i></p>
+                    <img src="Aparat-de-sudura.png" style="width: 100px; right: 0; padding-right: 3%; padding-top: 12%;  position: absolute;">
+                    <p style="margin-top: 22%;"><i class="fas fa-angle-right">Sudare prin Rezistenta </i></p>
                     <p><i class="fas fa-angle-right">Accesorii / Piese</i></p>
                     <p><i class="fas fa-angle-right">Accesorii / Consumabilei</i></p>
                     <p><i class="fas fa-angle-right">Tras Tabla</i></p>
@@ -219,7 +238,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <h3>ACCESORII SUDARE / TAIERE</h3>
-                    <p><i class="fas fa-angle-right">Accesorii Gaze</i></p>
+                    <img src="sistem-instalatie.png" style="width: 100px; right: 0; padding-right: 3%; padding-top: 12%;  position: absolute;">
+                    <p style="margin-top: 22%;"><i class="fas fa-angle-right">Accesorii Gaze</i></p>
                     <p><i class="fas fa-angle-right">Accesorii Universale</i></p>
                     <p><i class="fas fa-angle-right">Produse Chimice</i></p>
                     <p><i class="fas fa-angle-right">Accesorii Aparate</i></p>
@@ -230,7 +250,8 @@
             <div class="col">
                 <div class="card">
                     <h3>SCULE ASCHIETOARE ABRAZIVE</h3>
-                    <p><i class="fas fa-angle-right"> Abrazive</i></p>
+                    <img src="trusa-de-filiere.png" style="width: 100px; right: 0; padding-right: 3%; padding-top: 12%;  position: absolute;">
+                    <p style="margin-top: 22%;"><i class="fas fa-angle-right"> Abrazive</i></p>
                     <p><i class="fas fa-angle-right">Freze / Tesitoare / Alezoare</i></p>
                     <p><i class="fas fa-angle-right">Burghii Metalice</i></p>
                     <p><i class="fas fa-angle-right">Filiere / Tarozi / Carote</i></p>
@@ -475,6 +496,41 @@
         </div>
     </section>
 
+
+    <section id="cliens" class="cliens section-bg">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-2  align-items-center justify-content-center">
+                    <img src="Rectangle356.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 align-items-center justify-content-center">
+                    <img src="Rectangle357.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2  align-items-center justify-content-center">
+                    <img src="Rectangle358.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 align-items-center justify-content-center">
+                    <img src="Rectangle359.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2  d-flex align-items-center justify-content-center">
+                    <img src="Rectangle360.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 d-flex align-items-center justify-content-center">
+                    <img src="Rectangle361.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <div class="conatiner contact-area">
         <div class="row justify-content-center">
 
@@ -509,7 +565,7 @@
                             <div class="validate"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-msg="Please write something for us" placeholder="Messaj"></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Meesaj" style="resize:none;"></textarea>
                             <div class="validate"></div>
                         </div>
                         <div class="text-center"><button type="submit">Send Message<i class="fas fa-angle-double-right "></i></button></div>
@@ -517,14 +573,46 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
-                One of two columns
+            <div class="col-md-4 about-us">
+                <div class="container">
+                    <h1>Program KOBILL</h1>
+                    <div class="program">
+                        <h5>Luni:</h5>
+                        <h5>Marti:</h5>
+                        <h5>Miercuri:</h5>
+                        <h5>Joi:</h5>
+                        <h5>Vineri:</h5>
+                        <h5>Sambata:</h5>
+                        <h5>Duminica:</h5>
+                    </div>
+                    <div class="program-right">
+                        <h5>08:00-17:00</h5>
+                        <h5>08:00-17:00</h5>
+                        <h5>08:00-17:00</h5>
+                        <h5>08:00-17:00</h5>
+                        <h5>08:00-17:00</h5>
+                        <h5>INCHIS</h5>
+                        <h5>INCHIS</h5>
+                    </div>
+                </div>
+                <div class="container-contact">
+                    <h1>Contact</h1>
+                    <h5><i class="fa fa-mobile" style="font-size: 20px; color: #009999;padding-right: 1em;"></i> +40-755-KOBIL (562 455) </h5>
+                    <h5>+40-775-KOBIL (562 455)</h5>
+                    <h5><i class="fa fa-envelope-open" style="font-size: 20px; color: #009999; padding-right: 1em;"></i>office@kobill.ro/ magazin@kobill.ro </h5>
+
+                </div>
+                <div class="container-contact">
+                    <h1>Adresa</h1>
+                    <h5><i class="fas fa-map-marker-alt" style="font-size: 20px; color: #009999;padding-right: 1em;"></i>Str. 11 Iunie 1848 Nr.22<br> Brașov, România, 500233</h5>
+
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div id="googleMap" style="width:100%;height:250px;"></div>
+    <div id="googleMap" style="width:100%;height:350px;"></div>
 
 
 
